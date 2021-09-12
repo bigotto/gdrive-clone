@@ -25,7 +25,7 @@ const io = new Server(server, {
 })
 
 routes.setSocketInstance(io)
-io.on('connection', (socket) => logger.info(`someone connected: ${socker.id}`))
+io.on('connection', (socket) => logger.info(`someone connected: ${socket.id}`))
 
 const startServer = () => {
   const { address, port } = server.address()

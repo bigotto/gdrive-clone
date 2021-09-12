@@ -1,4 +1,4 @@
-import {dirname, resolve } from 'path'
+import { dirname, resolve } from 'path'
 import { pipeline } from "stream/promises"
 import { fileURLToPath, parse } from 'url'
 import { logger } from "./logger.js"
